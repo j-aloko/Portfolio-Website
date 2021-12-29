@@ -1,0 +1,152 @@
+.navbarContainer {
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  color: rgb(23, 10, 36);
+  background-color: #fff;
+  overflow: hidden;
+  transition: all 1s ease;
+}
+
+.navbarContainer.menu {
+  background-color: rgb(34, 18, 51);
+  color: white;
+}
+
+.navbarWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  transition: all 1.5s ease;
+}
+
+.navbarLeft {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.logoLink:hover {
+  color: inherit;
+}
+
+.navbarContact {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.gitWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.Git {
+  margin-left: 15px;
+  font-size: 25px;
+}
+
+.emailWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.navbarEmail {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.emailLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.emailLink:hover {
+  color: inherit;
+}
+
+.email {
+  margin-left: 10px;
+}
+
+.navbarRight {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 375px) {
+  .navbarWrapper {
+    margin-left: -30px;
+    margin-right: -20px;
+  }
+  .Logo {
+    display: none;
+  }
+
+  .svg_icon {
+    transform: scale(0.6);
+  }
+
+  .navbarLeft {
+    font-size: 15px;
+  }
+
+  .Git {
+    margin-left: 0px;
+  }
+
+  .navbarEmail {
+    margin-left: 15px;
+  }
+
+  .email {
+    margin-left: 0px;
+    font-size: 12px;
+  }
+
+  .svg_icons {
+    transform: scale(0.6);
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .navbarWrapper {
+    margin-left: -30px;
+    margin-right: -20px;
+  }
+  .Logo {
+    display: none;
+  }
+
+  .svg_icon {
+    transform: scale(0.6);
+  }
+
+  .navbarLeft {
+    font-size: 15px;
+  }
+
+  .Git {
+    margin-left: 2px;
+  }
+
+  .navbarEmail {
+    margin-left: 25px;
+  }
+
+  .email {
+    margin-left: 0px;
+    font-size: 12px;
+  }
+
+  .svg_icons {
+    transform: scale(0.6);
+  }
+}

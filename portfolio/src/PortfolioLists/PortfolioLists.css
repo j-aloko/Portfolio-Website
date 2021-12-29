@@ -1,0 +1,97 @@
+.portfolioWorks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfoliolistItem {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfoliotitle1 {
+  position: absolute;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  top: 180px;
+  left: 250px;
+  cursor: pointer;
+}
+
+.portfoliotitle1:hover {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.portfolioImgs {
+  height: 400px;
+  width: 450px;
+  margin: 20px;
+  margin-bottom: -15px;
+  object-fit: cover;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.portfolioImgs:hover {
+  background-color: rgb(206, 202, 202);
+  opacity: 0.2;
+  z-index: 0;
+}
+
+@media only screen and (max-width: 540px) {
+  .portfoliotitle1 {
+    font-size: 20px;
+    top: 140px;
+    left: 180px;
+  }
+
+  .portfolioImgs {
+    height: 300px;
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .portfoliotitle1 {
+    font-size: 20px;
+    top: 140px;
+    left: 130px;
+  }
+
+  .portfolioImgs {
+    height: 300px;
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .portfoliotitle1 {
+    font-size: 20px;
+    top: 140px;
+    left: 130px;
+  }
+
+  .portfolioImgs {
+    height: 300px;
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .portfoliotitle1 {
+    font-size: 20px;
+    top: 140px;
+    left: 100px;
+  }
+
+  .portfoliotitle1:hover {
+    font-size: 20px;
+  }
+}

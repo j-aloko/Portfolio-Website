@@ -1,0 +1,19 @@
+.portfolioContainer {
+  flex: 1;
+  height: 100vh;
+  background-color: #130f40;
+  background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+  border: none;
+}
+
+.portfolioWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolioLists {
+  display: flex;
+  cursor: pointer;
+}

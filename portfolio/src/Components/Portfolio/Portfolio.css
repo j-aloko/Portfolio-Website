@@ -1,6 +1,7 @@
 .portfolioContainer {
   flex: 1;
   height: 100vh;
+  width: 100vw;
   background-color: #130f40;
   background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
   border: none;
@@ -11,6 +12,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 10px;
 }
 
 .portfolioLists {

@@ -14,7 +14,7 @@ function Intro({ menu, setMenu }) {
         "Node Js",
         "Express",
         "MongoDB",
-        "Web Socket Implementation",
+        "Web Sockets",
       ],
       showCursor: true,
       backDelay: 3000,

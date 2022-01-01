@@ -1,97 +1,103 @@
 .portfolioWorks {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
 .portfoliolistItem {
+  display: flex;
+}
+
+.portfolioTitlt {
   position: relative;
+  right: 15px;
+}
+
+.portfolioTitle {
+  font-size: 50px;
+  font-weight: bold;
+  color: gray;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.portfolioInfo {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  margin-left: 50px;
+  position: relative;
+  top: 300px;
+}
+
+.ProjectLinks {
   display: flex;
   flex-direction: column;
 }
 
-.portfoliotitle1 {
-  position: absolute;
-  font-size: 30px;
-  font-weight: bold;
+.projectLinksItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 600;
   color: white;
-  top: 180px;
-  left: 250px;
-  cursor: pointer;
 }
 
-.portfoliotitle1:hover {
-  font-size: 30px;
-  font-weight: bold;
-  color: white;
+.projectLinksItem:hover {
+  opacity: 0.6;
+}
+
+.projectLinkDesc {
+  margin-left: 20px;
 }
 
 .portfolioImgs {
-  height: 400px;
-  width: 450px;
-  margin: 20px;
-  margin-bottom: -15px;
+  height: 450px;
+  width: 100%;
   object-fit: cover;
-  opacity: 0.5;
   cursor: pointer;
 }
 
-.portfolioImgs:hover {
-  background-color: rgb(206, 202, 202);
-  opacity: 0.2;
-  z-index: 0;
+@media only screen and (max-width: 1024px) {
+  .portfolioWorks {
+    margin: 20px;
+  }
+  .portfolioInfo {
+    right: 35px;
+  }
+
+  .portfolioImgs {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media only screen and (max-width: 540px) {
-  .portfoliotitle1 {
+  .portfoliolistItem {
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+
+  .portfolioTitle {
     font-size: 20px;
-    top: 140px;
-    left: 180px;
+  }
+
+  .portfolioInfo {
+    margin-left: 0px;
+    right: 35px;
+    top: 5px;
   }
 
   .portfolioImgs {
-    height: 300px;
-    width: 100%;
-    margin: 0;
-  }
-}
-
-@media only screen and (max-width: 420px) {
-  .portfoliotitle1 {
-    font-size: 20px;
-    top: 140px;
-    left: 130px;
-  }
-
-  .portfolioImgs {
-    height: 300px;
-    width: 100%;
-    margin: 0;
+    height: auto;
+    width: 75%;
   }
 }
 
 @media only screen and (max-width: 375px) {
-  .portfoliotitle1 {
-    font-size: 20px;
-    top: 140px;
-    left: 130px;
-  }
-
-  .portfolioImgs {
-    height: 300px;
-    width: 100%;
-    margin: 0;
-  }
-}
-
-@media only screen and (max-width: 300px) {
-  .portfoliotitle1 {
-    font-size: 20px;
-    top: 140px;
-    left: 100px;
-  }
-
-  .portfoliotitle1:hover {
-    font-size: 20px;
+  .portfolioInfo {
+    top: 0;
   }
 }

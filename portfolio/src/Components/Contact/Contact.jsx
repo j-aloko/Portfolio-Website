@@ -7,7 +7,8 @@ import emailjs from "emailjs-com";
 import CircularProgress from "@mui/material/CircularProgress";
 import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
 import WarningAmberIcon from "@mui/icons-material/WarningAmber";
-import ContactMailTwoToneIcon from "@mui/icons-material/ContactMailTwoTone";
+import AttachEmailOutlinedIcon from "@mui/icons-material/AttachEmailOutlined";
+import MarkEmailReadOutlinedIcon from "@mui/icons-material/MarkEmailReadOutlined";
 
 function Contact() {
   init("user_Z1iEC8RXZuNkJR3FMOKor");
@@ -48,9 +49,6 @@ function Contact() {
             setProgress(false);
             setTimeout(() => {
               window.location.replace("#Intro");
-              setTimeout(() => {
-                window.location.reload();
-              }, 1000);
             }, 2000);
           },
           function (error) {
@@ -70,14 +68,16 @@ function Contact() {
         <div className="contactLeftAndRightWrapper">
           <div className="contactLeft">
             {sent ? (
-              <img
-                className="contactImgs"
-                src="assets/green-thumbs-up-11246.png"
-                alt=""
-              />
+              <div className="mailIcon">
+                <MarkEmailReadOutlinedIcon
+                  style={{ fontSize: 400, color: " #34A853" }}
+                />
+              </div>
             ) : (
               <div className="mailIcon">
-                <ContactMailTwoToneIcon style={{ fontSize: 500 }} />
+                <AttachEmailOutlinedIcon
+                  style={{ fontSize: 400, color: "#bb001b" }}
+                />
               </div>
             )}
           </div>

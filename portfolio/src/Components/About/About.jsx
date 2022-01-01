@@ -23,28 +23,25 @@ function About({ menu }) {
           </p>
         </div>
         <div className="currentTech">
-          <p className="tech">
-            Here are a few technologies i've been working with recently :
-          </p>
+          <u>
+            <p className="tech">Technology Stacks I Currently Work With.</p>
+          </u>
         </div>
         <div className="techlistWrapper">
           <ul className="aboutListItems">
-            <h3 className="Stacks">Front End</h3>
-            <li className="listItem">HTML5, JavaScript</li>
-            <li className="listItem">CSS3, SASS, Styled Components</li>
-            <li className="listItem">Material Ui</li>
             <li className="listItem">React Js</li>
             <li className="listItem">Next Js</li>
+            <li className="listItem">CSS3, SASS , Styled Components</li>
           </ul>
           <ul className="aboutListItems">
-            <h3 className="Stacks">Backend</h3>
+            <li className="listItem">Material Ui</li>
             <li className="listItem">Node Js </li>
             <li className="listItem">Express</li>
-            <li className="listItem">Mongoose || MongoDb</li>
-            <li className="listItem">Web Socket Implementation</li>
-            <li className="listItem">
-              Unit, Integration & End-to-End Testing with React testing library
-            </li>
+          </ul>
+          <ul className="aboutListItems">
+            <li className="listItem">MongoDb</li>
+            <li className="listItem">Cypress</li>
+            <li className="listItem">Web Sockets</li>
           </ul>
         </div>
       </div>

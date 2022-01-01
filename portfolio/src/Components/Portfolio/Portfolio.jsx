@@ -16,6 +16,8 @@ function Portfolio() {
                 key={slideImage.id}
                 title={slideImage.title}
                 img={slideImage.url}
+                video={slideImage.video}
+                code={slideImage.code}
               />
             ))}
           </Carousel>

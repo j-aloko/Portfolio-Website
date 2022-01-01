@@ -18,7 +18,7 @@
 }
 
 .introTitle {
-  font-size: 80px;
+  font-size: 50px;
   font-weight: 300;
   line-height: 85%;
   margin-left: 15px;
@@ -26,7 +26,7 @@
 }
 
 .introDescription {
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 30px;
   margin-left: 15px;
   font-family: "Lucida Console", "Courier New", monospace;
@@ -35,7 +35,7 @@
 .viewProjects {
   width: 35%;
   padding: 15px;
-  margin-top: 100px;
+  margin-top: 50px;
   background-color: black;
   border: 1px solid white;
   text-align: center;
@@ -50,13 +50,6 @@
 
 .viewProjects:hover {
   color: white;
-}
-
-.arrowDown {
-  position: relative;
-  left: 100px;
-  margin-top: 20px;
-  font-size: 40;
 }
 
 .imgWrapper {
@@ -80,7 +73,20 @@
   vertical-align: middle;
 }
 
+@media only screen and (max-width: 1280px) {
+  .viewProjects {
+    width: 60%;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
+  .introContainer {
+    flex-direction: column;
+  }
   .introTitle {
     font-size: 45px;
     font-weight: 500;
@@ -104,17 +110,10 @@
   }
 }
 
-@media only screen and (max-width: 1280px) {
-  .viewProjects {
-    width: 60%;
-    padding: 15px;
-    margin-top: 30px;
-    font-size: 12px;
-    margin-left: 5px;
-  }
-}
-
 @media only screen and (max-width: 540px) {
+  .introContainer {
+    flex-direction: column;
+  }
   .introTitle {
     font-size: 20px;
     font-weight: 500;
@@ -132,13 +131,13 @@
   .viewProjects {
     width: 60%;
     padding: 5px;
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 12px;
     margin-left: 5px;
   }
 
   .imgWrapper {
-    margin-top: -60px;
+    margin-top: 20px;
   }
 
   .imgWrapper.menu {
@@ -175,7 +174,7 @@
   }
 
   .imgWrapper {
-    margin-top: -60px;
+    margin-top: 20px;
   }
 
   .imgWrapper.menu {
@@ -212,7 +211,7 @@
   }
 
   .imgWrapper {
-    margin-top: -60px;
+    margin-top: 20px;
   }
 
   .imgWrapper.menu {

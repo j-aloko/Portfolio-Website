@@ -10,22 +10,21 @@ function About({ menu }) {
         </div>
         <div className={menu ? "aboutDescription menu" : "aboutDescription"}>
           <p className="aboutParagraph">
-            <span className="Q">Q</span>uality, simplicity of the end product
-            and client satisfaction is extremely important to me. I strive to
-            understand the system and the challenges I'm solving to ensure it
-            brings value and ease to the end user. I find working in teams,
-            startup-like environments and working remotely exciting, as we get
-            to share knowledge across the world and get the job done quickly.
-            Although I welcome knowledge from team members, I do not need to be
-            micromanaged nor have my hands held at every step of the development
-            process. I don't shy away from stepping outside my comfort zone to
-            research and improve my workflow.
+            <span className="Q">Q</span>uality, simplicity of the end product,
+            client satisfaction and a great user experience is extremely
+            important to me. I strive to understand the system and challenges
+            I'm solving to ensure it brings value and ease to the end user. I
+            find working in teams, startup-like environments and working
+            remotely exciting, as we get to connect and share knowledge across
+            the world and get the job done. Although I welcome knowledge from
+            team members, I do not need to be micromanaged nor have my hands
+            held at every step of the development process. I don't shy away from
+            stepping outside my comfort zone to research solutions when I'm
+            stuck over a feature implementation.
           </p>
         </div>
         <div className="currentTech">
-          <u>
-            <p className="tech">Technology Stacks I Currently Work With.</p>
-          </u>
+          <p className="tech">Relevant Technologies:</p>
         </div>
         <div className="techlistWrapper">
           <ul className="aboutListItems">

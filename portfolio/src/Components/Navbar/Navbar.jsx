@@ -4,6 +4,7 @@ import EmailRoundedIcon from "@mui/icons-material/EmailRounded";
 import DehazeIcon from "@mui/icons-material/Dehaze";
 import CloseIcon from "@mui/icons-material/Close";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import DownloadIcon from "@mui/icons-material/Download";
 
 function Navbar({ menu, setMenu }) {
   return (
@@ -27,6 +28,18 @@ function Navbar({ menu, setMenu }) {
               <div className="emailWrapper">
                 <EmailRoundedIcon className="svg_icon" />
                 <span className="email">alokojoseph7@gmail.com</span>
+              </div>
+            </a>
+          </div>
+          <div className="navbarCvDownload">
+            <a
+              href="/assets/Joseph_Aloko_Resume.pdf"
+              className="emailLink"
+              download
+            >
+              <div className="cvWrapper">
+                <DownloadIcon className="svg_icon" />
+                <span className="cv">C.V</span>
               </div>
             </a>
           </div>

@@ -4,9 +4,11 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LanguageIcon from "@mui/icons-material/Language";
 import LoginIcon from "@mui/icons-material/Login";
 
-function PortfolioLists({ img, title, code, video }) {
-  const handleClick = () => {
-    console.log("hey");
+function PortfolioLists({ img, title, code, video, website }) {
+  const handleLogin = () => {
+    alert(
+      "Use Login Credentials: { Email : junior@gmail.com, Password : 43421 }"
+    );
   };
   return (
     <div className="portfolioWorks">
@@ -19,22 +21,23 @@ function PortfolioLists({ img, title, code, video }) {
             src={video}
             poster={img}
             controls
-            loop
             className="portfolioImgs"
           ></video>
         </div>
         <div className="portfolioInfo">
           <div className="ProjectLinks">
             <a href={code}>
-              <div className="projectLinksItem" onClick={handleClick}>
-                <GitHubIcon style={{ fontSize: 30 }} />
+              <div className="projectLinksItem">
+                <GitHubIcon />
               </div>
             </a>
-            <div className="projectLinksItem">
-              <LanguageIcon style={{ fontSize: 30 }} />
-            </div>
-            <div className="projectLinksItem">
-              <LoginIcon style={{ fontSize: 30 }} />
+            <a href={website}>
+              <div className="projectLinksItem">
+                <LanguageIcon />
+              </div>
+            </a>
+            <div className="projectLinksItem" onClick={handleLogin}>
+              <LoginIcon />
             </div>
           </div>
         </div>

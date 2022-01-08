@@ -26,10 +26,10 @@ function Intro({ menu, setMenu }) {
       <div className="introTitleWrapper">
         <h1 className="introTitle">Developing Awesomeness</h1>
         <span className="introDescription">
-          Hi, Welcome to my space, i'm Joseph Aloko, a fullstack software
+          Hi, Welcome to my space, I'm Joseph Aloko, a fullstack software
           engineer with over two years experience in web development,
           collaborating with teammates across the world, to deliver excellent
-          service to clients. My expertise are{" "}
+          services to clients. My expertise are{" "}
           <span style={{ color: "red" }} ref={descriptionRef}></span>
         </span>
         <a

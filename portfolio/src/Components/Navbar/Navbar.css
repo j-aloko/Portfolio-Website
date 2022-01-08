@@ -48,7 +48,8 @@
 
 .Git {
   margin-left: 15px;
-  font-size: 25px;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 .emailWrapper {
@@ -60,6 +61,20 @@
   display: flex;
   align-items: center;
   margin-left: 50px;
+}
+
+.email {
+  font-weight: bold;
+}
+
+.navbarCvDownload {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.cv {
+  font-weight: bold;
 }
 
 .emailLink {
@@ -79,6 +94,46 @@
   display: flex;
   flex-direction: column;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 540px) {
+  .navbarWrapper {
+    margin-left: -30px;
+    margin-right: -20px;
+  }
+  .Logo {
+    display: none;
+  }
+
+  .svg_icon {
+    transform: scale(0.6);
+  }
+
+  .navbarLeft {
+    font-size: 15px;
+  }
+
+  .Git {
+    margin-left: 2px;
+    font-size: 18px;
+  }
+
+  .navbarEmail {
+    margin-left: 25px;
+  }
+
+  .navbarCvDownload {
+    margin-left: 25px;
+  }
+
+  .email {
+    margin-left: 0px;
+    font-size: 12px;
+  }
+
+  .svg_icons {
+    transform: scale(0.6);
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -106,39 +161,8 @@
     margin-left: 15px;
   }
 
-  .email {
-    margin-left: 0px;
-    font-size: 12px;
-  }
-
-  .svg_icons {
-    transform: scale(0.6);
-  }
-}
-
-@media only screen and (max-width: 430px) {
-  .navbarWrapper {
-    margin-left: -30px;
-    margin-right: -20px;
-  }
-  .Logo {
-    display: none;
-  }
-
-  .svg_icon {
-    transform: scale(0.6);
-  }
-
-  .navbarLeft {
-    font-size: 15px;
-  }
-
-  .Git {
-    margin-left: 2px;
-  }
-
-  .navbarEmail {
-    margin-left: 25px;
+  .navbarCvDownload {
+    margin-left: 15px;
   }
 
   .email {

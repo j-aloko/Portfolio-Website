@@ -6,6 +6,7 @@ import Intro from "./../../Components/Intro/Intro";
 import Portfolio from "./../../Components/Portfolio/Portfolio";
 import Contact from "./../../Components/Contact/Contact";
 import About from "./../../Components/About/About";
+import Testimonials from "./../../Components/Testimonials/Testimonials";
 
 function Homepage() {
   const [menu, setMenu] = useState(false);
@@ -17,6 +18,7 @@ function Homepage() {
         <Intro menu={menu} setMenu={setMenu} />
         <About menu={menu} />
         <Portfolio />
+        <Testimonials />
         <Contact />
       </div>
     </div>

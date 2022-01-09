@@ -7,7 +7,7 @@ import LoginIcon from "@mui/icons-material/Login";
 function PortfolioLists({ img, title, code, video, website }) {
   const handleLogin = () => {
     alert(
-      "Use Login Credentials: { Email : junior@gmail.com, Password : 43421 }"
+      "Use Login Credentials : [ Email : junior@gmail.com, Password : 43421 ]"
     );
   };
   return (

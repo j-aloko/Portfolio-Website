@@ -15,6 +15,9 @@ function Menu({ setMenu, menu }) {
           <a href="#Portfolio">PROJECTS</a>
         </li>
         <li onClick={() => setMenu(false)}>
+          <a href="#Testimonials">TESTIMONIALS</a>
+        </li>
+        <li onClick={() => setMenu(false)}>
           <a href="#Contact">CONTACT</a>
         </li>
       </ul>

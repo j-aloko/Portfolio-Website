@@ -6,13 +6,15 @@
   display: flex;
   flex-direction: column;
   color: whitesmoke;
-  margin-left: 35px;
+  margin-left: 20px;
 }
 
 .PortfolioTitle {
+  text-align: left;
   font-family: "Lucida Console", "Courier New", monospace;
   color: whitesmoke;
   margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 .techStackWrapper {
@@ -38,7 +40,7 @@
 }
 
 .techStacksList {
-  margin-right: 30px;
+  margin-right: 20px;
   background-color: #fff;
   padding: 5px;
   border: 1px solid white;
@@ -48,7 +50,7 @@
 
 .techStacksList:hover {
   color: black;
-  margin-right: 30px;
+  margin-right: 20px;
   background-color: #fff;
   padding: 5px;
   border: 1px solid white;
@@ -57,8 +59,8 @@
 }
 
 .descriptionArea {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .description {
@@ -78,8 +80,13 @@
   align-items: center;
 }
 
+.language {
+  margin-right: 10px;
+  color: blue;
+}
+
 .live {
-  width: 160px;
+  width: 140px;
   background-color: transparent;
   border: 0.5px solid white;
   padding: 5px 5px;
@@ -90,7 +97,14 @@
 }
 
 .live:hover {
-  font-weight: bold;
+  width: 140px;
+  background-color: transparent;
+  border: 0.5px solid white;
+  padding: 5px 5px;
+  color: white;
+  margin-right: 10px;
+  cursor: pointer;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .green {
@@ -99,6 +113,10 @@
   border-radius: 50%;
   background-color: green;
   margin-left: -25px;
+}
+
+.github {
+  margin-right: 10px;
 }
 
 .githubcode {
@@ -117,5 +135,49 @@
 }
 
 .sourceCode:hover {
-  font-weight: bold;
+  background-color: transparent;
+  border: 0.5px solid white;
+  padding: 5px;
+  color: white;
+  margin-right: 10px;
+  cursor: pointer;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+@media only screen and (max-width: 1024px) {
+  .projectDescriptionWrapper {
+    margin-left: 0;
+  }
+
+  .PortfolioTitle {
+    font-size: 20px;
+  }
+
+  .techStacksList {
+    font-size: 12px;
+  }
+
+  .techStacksList:hover {
+    font-size: 12px;
+  }
+
+  .description {
+    font-size: 12px;
+  }
+
+  .portfolioButtons {
+    justify-content: space-between;
+  }
+
+  .green {
+    margin-left: -35px;
+  }
+
+  .language {
+    display: none;
+  }
+
+  .github {
+    display: none;
+  }
 }

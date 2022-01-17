@@ -68,6 +68,10 @@ li :hover {
   li {
     margin-bottom: 25px;
   }
+
+  .portfolioMenuItem {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 430px) {

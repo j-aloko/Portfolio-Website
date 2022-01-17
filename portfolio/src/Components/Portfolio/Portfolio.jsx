@@ -10,7 +10,11 @@ function Portfolio() {
     <div className="portfolioContainer" id="Portfolio">
       <div className="portfolioWrapper">
         <div className="portfolioLists">
-          <Carousel emulateTouch={true} showThumbs={false}>
+          <Carousel
+            emulateTouch={true}
+            showThumbs={false}
+            transitionTime={2000}
+          >
             {slideImages.map((slideImage) => (
               <PortfolioLists
                 key={slideImage.id}

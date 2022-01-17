@@ -1,7 +1,6 @@
 .homeContainer {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   position: relative;
   top: 70px;
   height: calc(100vh - 70px);

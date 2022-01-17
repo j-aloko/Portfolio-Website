@@ -18,15 +18,16 @@ function About({ menu }) {
               startup-like organizations, and remotely excites me since we get
               to engage with people from all backgrounds, share information, and
               learn from them. I most recently worked for Maviance as a
-              front-end developer for{" "}
+              front-end developer on{" "}
               <a href="https://www.qlipay.de" target="_blank" rel="noreferrer">
                 https://www.qlipay.de
               </a>
-              , a cross-border payment network that allows millions of migrants
-              to pay for bills, products, and services for their family around
+              , a cross-border payment platform that allows millions of migrants
+              to pay for bills, products, and services for their families around
               the world in real-time and at reasonable costs. In this role, I
-              collaborated with a team of developers, a product manager, and QA
-              to make cross-border bill payments as simple as possible.
+              collaborated with a team of developers, UX Designers, a product
+              manager, and QA to make cross-border bill payments efficient and
+              as simple as possible.
             </p>
           </div>
         </div>

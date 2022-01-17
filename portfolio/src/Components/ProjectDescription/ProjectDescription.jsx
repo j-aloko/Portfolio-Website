@@ -6,7 +6,7 @@ import LanguageIcon from "@mui/icons-material/Language";
 function ProjectDescription({ code, website, stack, title, description }) {
   return (
     <div className="projectDescriptionContainer">
-      <h1 className="PortfolioTitle">{title}</h1>
+      <h2 className="PortfolioTitle">{title}</h2>
       <div className="projectDescriptionWrapper">
         <div className="techStackWrapper">
           {stack?.map((s, index) => (
@@ -21,14 +21,18 @@ function ProjectDescription({ code, website, stack, title, description }) {
         <div className="portfolioButtons">
           <a href={website} target="_blank" rel="noreferrer" className="links">
             <div className="liveDemo">
-              <LanguageIcon style={{ marginRight: "10px", color: "blue" }} />
-              <span className="live">Live Website</span>
+              <div className="language">
+                <LanguageIcon />
+              </div>
+              <span className="live">Website</span>
               <span className="green"></span>
             </div>
           </a>
           <a href={code} target="_blank" rel="noreferrer" className="links">
             <div className="githubcode">
-              <GitHubIcon style={{ marginRight: "10px" }} />
+              <div className="github">
+                <GitHubIcon />
+              </div>
               <span className="sourceCode">Source Code</span>
             </div>
           </a>

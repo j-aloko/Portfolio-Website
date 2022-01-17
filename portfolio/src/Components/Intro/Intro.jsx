@@ -11,11 +11,10 @@ function Intro({ menu, setMenu }) {
       strings: [
         "React Js",
         "Next Js",
-        "Java Script",
         "Node Js",
         "Express",
-        "MongoDB",
-        "Web Sockets",
+        "Mongo",
+        "Sockets",
       ],
       showCursor: true,
       backDelay: 1500,
@@ -25,23 +24,18 @@ function Intro({ menu, setMenu }) {
   return (
     <div className="introContainer" id="Intro">
       <div className="introTitleWrapper">
-        <h1 className="introTitle">Creating Websites That Engage Users.</h1>
+        <span className="introTitle">Creating Solutions Through Tech</span>
         <span className="introDescription">
-          Hi, Thank you for taking the time to look at my website. I'm Joseph
-          Aloko, a full-stack software engineer with over two years of web
-          development experience, collaborating with colleagues all over the
-          world to give clients exceptional service. My expertise are{" "}
-          <span
-            style={{ color: "red", fontSize: 25 }}
-            ref={descriptionRef}
-          ></span>
+          Hi, Thank you for taking the time to look over my website. My name is
+          Joseph Aloko, a full-stack software engineer. I leverage on a variety
+          of technologies to build websites that engage users and solve
+          day-to-day problems. My expertise are{" "}
+          <span className="iType" ref={descriptionRef}></span>
         </span>
-        <a
-          href="#About"
-          className="viewProjects"
-          onClick={() => setMenu(false)}
-        >
-          More <ArrowDownwardIcon style={{ color: "red", fontSize: 35 }} />
+        <a href="#About">
+          <button className="viewProjects" onClick={() => setMenu(false)}>
+            More <ArrowDownwardIcon style={{ color: "red", fontSize: 35 }} />
+          </button>
         </a>
       </div>
       <div className={menu ? "imgWrapper menu" : "imgWrapper"}>

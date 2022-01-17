@@ -1,8 +1,4 @@
 .portfolioWorks {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   flex: 0.6;
 }
 
@@ -12,41 +8,15 @@
 
 .portfolioImgs {
   height: 450px;
-  width: 90%;
+  width: 80%;
   object-fit: contain;
   cursor: pointer;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 @media only screen and (max-width: 1024px) {
-  .portfoliolistItem {
-    display: flex;
-    width: 100%;
-    height: auto;
-  }
-
-  .portfolioWorks {
-    margin: 20px;
-  }
-
   .portfolioImgs {
-    width: 75%;
-    height: auto;
+    width: 70%;
+    height: 400px;
   }
-}
-
-@media only screen and (max-width: 540px) {
-  .portfoliolistItem {
-    display: flex;
-    width: 100%;
-    height: auto;
-  }
-
-  .portfolioImgs {
-    height: auto;
-    width: 75%;
-  }
-}
-
-@media only screen and (max-width: 375px) {
 }

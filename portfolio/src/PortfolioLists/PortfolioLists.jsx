@@ -13,16 +13,19 @@ function PortfolioLists({
   description,
 }) {
   return (
-    <div className="PortfolioSlidesContainer">
-      <ProjectDescription
-        code={code}
-        website={website}
-        stack={stack}
-        title={title}
-        description={description}
-      />
-      <VideoSlides img={img} code={code} video={video} website={website} />
-    </div>
+    <>
+      <h2 className="personalprojects">PERSONAL PROJECTS</h2>
+      <div className="PortfolioSlidesContainer">
+        <ProjectDescription
+          code={code}
+          website={website}
+          stack={stack}
+          title={title}
+          description={description}
+        />
+        <VideoSlides img={img} code={code} video={video} website={website} />
+      </div>
+    </>
   );
 }
 

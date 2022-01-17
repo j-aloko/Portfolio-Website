@@ -15,10 +15,13 @@
 .contactTitleAndDescription {
   color: whitesmoke;
   font-family: "Lucida Console", "Courier New", monospace;
-  font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.getInTouch {
+  opacity: 0.6;
 }
 
 .contactLeftAndRightWrapper {

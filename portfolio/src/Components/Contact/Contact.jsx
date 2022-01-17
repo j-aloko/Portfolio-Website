@@ -63,7 +63,7 @@ function Contact() {
     <div className="contactContainer" id="Contact">
       <div className="contactWrapper">
         <div className="contactTitleAndDescription">
-          <h1>GET IN TOUCH</h1>
+          <h1 className="getInTouch">GET IN TOUCH</h1>
         </div>
         <div className="contactLeftAndRightWrapper">
           <div className="contactLeft">

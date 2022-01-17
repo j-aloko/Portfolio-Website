@@ -6,6 +6,7 @@
   height: 100vh;
   display: flex;
   justify-content: center;
+  margin-top: 30px;
   border: none;
 }
 
@@ -26,9 +27,6 @@
   margin-bottom: 10px;
   color: whitesmoke;
   font-weight: bold;
-}
-
-.aboutDescription {
 }
 
 .aboutDescription.menu {
@@ -96,12 +94,37 @@
     line-height: 35px;
   }
 
+  .abouttitle {
+    font-size: 20px;
+  }
   .tech {
-    font-size: 22px;
+    font-size: 18px;
   }
 
-  .aboutListItems {
-    font-size: 16px;
+  .aboutme {
+    border-right: 3px solid red;
+  }
+
+  .aboutParagraph {
+    font-size: 12px;
+    line-height: 30px;
+  }
+
+  .listItem {
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+
+  .otherInterestTitle {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  .interest {
+    font-size: 12px;
+    line-height: 25px;
   }
 }
 
@@ -118,11 +141,6 @@
     width: 100%;
   }
 
-  .aboutParagraph {
-    font-size: 12px;
-    line-height: 30px;
-  }
-
   .Q {
     font-size: 20px;
   }
@@ -132,20 +150,18 @@
   }
 
   .techlistWrapper {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .aboutListItems {
-    font-size: 12px;
-    font-weight: 100;
-    padding: 0;
+    display: none;
+    flex: 0;
   }
 
-  .Stacks {
-    margin-top: 5px;
-    margin-bottom: 10px;
+  .aboutme {
+    flex: 1;
+    border-right: none;
+  }
+
+  .aboutParagraph {
+    font-size: 12px;
+    line-height: 25px;
   }
 }
 

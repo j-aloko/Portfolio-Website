@@ -17,6 +17,7 @@ function Testimonials() {
 
   return (
     <div className="testimonialsContainer" id="Testimonials">
+      <h2 className="testimonials">TESTIMONIALS</h2>
       <div className="testimonialsWrapper">
         {!matches ? (
           <>

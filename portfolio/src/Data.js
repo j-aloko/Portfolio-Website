@@ -1,29 +1,6 @@
 export const slideImages = [
   {
     id: 1,
-    url: "/assets/blog@2x.png",
-    video: "/assets/BlogApp.mp4",
-    title: " JUST READ BLOG ",
-    website: "https://just-read-app.herokuapp.com/",
-    code: "https://github.com/j-aloko/Just-Read-Blog.git",
-    stack: [
-      "Javascript",
-      "React",
-      "Node Js",
-      "MongoDB",
-      "Rest Api",
-      "Web-Socket",
-      "Cypress",
-      "Context Api",
-      "HTML5",
-      "CSS3",
-      "Material UI",
-    ],
-    description:
-      "Just Read is a free and open platform where readers may discover new ideas and where experts and unknown voices can publish their writing on any subject. This is a fully functional 'MERN' stack web application with a great blog design and structure, a simple menu, social media integration, a commenting system, a visible search box, and a well-organized category section.",
-  },
-  {
-    id: 2,
     url: "/assets/social.jpg",
     video: "/assets/LinkUp.mp4",
     title: "LINK UP SOCIAL APP",
@@ -44,6 +21,29 @@ export const slideImages = [
     ],
     description:
       "Link up is a social media network that promotes sociability, photo sharing, news updates, and interaction with friends and family. This software has a built-in messenger feature, a news feed system, the ability to follow and unfollow people, likes, comments, and replies, as well as an instant notification system.",
+  },
+  {
+    id: 2,
+    url: "/assets/blog@2x.png",
+    video: "/assets/BlogApp.mp4",
+    title: " JUST READ BLOG ",
+    website: "https://just-read-app.herokuapp.com/",
+    code: "https://github.com/j-aloko/Just-Read-Blog.git",
+    stack: [
+      "Javascript",
+      "React",
+      "Node Js",
+      "MongoDB",
+      "Rest Api",
+      "Web-Socket",
+      "Cypress",
+      "Context Api",
+      "HTML5",
+      "CSS3",
+      "Material UI",
+    ],
+    description:
+      "Just Read is a free and open platform where readers may discover new ideas and where experts and unknown voices can publish their writing on any subject. This is a fully functional 'MERN' stack web application with a great blog design and structure, a simple menu, social media integration, a commenting system, a visible search box, and a well-organized category section.",
   },
   {
     id: 3,

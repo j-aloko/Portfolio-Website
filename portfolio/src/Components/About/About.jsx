@@ -5,43 +5,59 @@ function About({ menu }) {
   return (
     <div className="about" id="About">
       <div className="aboutWrapper">
-        <div className="aboutTitle">
-          <h1 className="abouttitle">ABOUT</h1>
-        </div>
-        <div className={menu ? "aboutDescription menu" : "aboutDescription"}>
-          <p className="aboutParagraph">
-            <span className="Q">Q</span>uality, simplicity of the end product
-            and client satisfaction is extremely important to me. I strive to
-            understand the system and challenges I'm solving to ensure it brings
-            value and ease to the end user. I find working in teams,
-            startup-like environments and working remotely exciting, as we get
-            to connect and share knowledge across the world and get the job
-            done. Although I welcome knowledge from team members, I do not need
-            to be micromanaged nor have my hands held at every step of the
-            development process. I don't shy away from stepping outside my
-            comfort zone to research solutions when I'm stuck over a feature
-            implementation.
-          </p>
-        </div>
-        <div className="currentTech">
-          <p className="tech">Relevant Technologies:</p>
+        <div className="aboutme">
+          <div className="aboutTitle">
+            <h1 className="abouttitle">MORE</h1>
+          </div>
+          <div className={menu ? "aboutDescription menu" : "aboutDescription"}>
+            <p className="aboutParagraph">
+              <span className="Q">A</span>s a full-stack engineer, I work with
+              other developers to create world-class enterprise software. I work
+              hard to understand the system and problems I'm confronting so that
+              it brings value and ease to the end user. Working in teams, in
+              startup-like organizations, and remotely excites me since we get
+              to engage with people from all backgrounds, share information, and
+              learn from them. I most recently worked for Maviance as a
+              front-end developer for{" "}
+              <a href="https://www.qlipay.de" target="_blank" rel="noreferrer">
+                https://www.qlipay.de
+              </a>
+              , a cross-border payment network that allows millions of migrants
+              to pay for bills, products, and services for their family around
+              the world in real-time and at reasonable costs. In this role, I
+              collaborated with a team of developers, a product manager, and QA
+              to make cross-border bill payments as simple as possible.
+            </p>
+          </div>
         </div>
         <div className="techlistWrapper">
-          <ul className="aboutListItems">
-            <li className="listItem">React Js</li>
-            <li className="listItem">Next Js</li>
-            <li className="listItem">CSS3, SASS , Styled Components</li>
-          </ul>
-          <ul className="aboutListItems">
-            <li className="listItem">Material Ui</li>
-            <li className="listItem">Node Js </li>
-            <li className="listItem">Express</li>
-          </ul>
-          <ul className="aboutListItems">
-            <li className="listItem">MongoDb</li>
-            <li className="listItem">Cypress</li>
-            <li className="listItem">Web Sockets</li>
-          </ul>
+          <div className="currentTech">
+            <h1 className="tech">MY FREQUENTLY USED STACK</h1>
+          </div>
+          <div className="techStackss">
+            <span className="listItem">React Js</span>
+            <span className="listItem">Next Js</span>
+            <span className="listItem">Node Js </span>
+            <span className="listItem">Express</span>
+            <span className="listItem">MongoDb</span>
+            <span className="listItem">Cypress</span>
+            <span className="listItem">React Testing Library</span>
+            <span className="listItem">Web Sockets</span>
+            <span className="listItem">HTML5</span>
+            <span className="listItem">Styled Components</span>
+            <span className="listItem">SASS</span>
+            <span className="listItem">CSS3</span>
+            <span className="listItem">Material Ui</span>
+          </div>
+          <div className="otherInterests">
+            <h3 className="otherInterestTitle">OTHER INTERESTS</h3>
+            <p className="interest">
+              I either work out or play football with my friends when I'm not
+              creating code. I also give a couple of hours a week to a social
+              services group that distributes clothing and furniture to the less
+              fortunate.
+            </p>
+          </div>
         </div>
       </div>
     </div>

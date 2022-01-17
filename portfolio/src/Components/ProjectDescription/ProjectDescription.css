@@ -1,0 +1,121 @@
+.projectDescriptionContainer {
+  flex: 0.4;
+}
+
+.projectDescriptionWrapper {
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+  margin-left: 35px;
+}
+
+.PortfolioTitle {
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: whitesmoke;
+  margin-bottom: 20px;
+}
+
+.techStackWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  color: black;
+}
+
+.techStackWrapper:hover {
+  display: flex;
+  flex-wrap: wrap;
+  color: black;
+}
+.techStacks {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.techStacks:hover {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: black;
+}
+
+.techStacksList {
+  margin-right: 30px;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.techStacksList:hover {
+  color: black;
+  margin-right: 30px;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.descriptionArea {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.description {
+  text-align: left;
+  line-height: 25px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.portfolioButtons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.liveDemo {
+  display: flex;
+  align-items: center;
+}
+
+.live {
+  width: 160px;
+  background-color: transparent;
+  border: 0.5px solid white;
+  padding: 5px 5px;
+  color: white;
+  margin-right: 10px;
+  cursor: pointer;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.live:hover {
+  font-weight: bold;
+}
+
+.green {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: green;
+  margin-left: -25px;
+}
+
+.githubcode {
+  display: flex;
+  align-items: center;
+}
+
+.sourceCode {
+  background-color: transparent;
+  border: 0.5px solid white;
+  padding: 5px;
+  color: white;
+  margin-right: 10px;
+  cursor: pointer;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.sourceCode:hover {
+  font-weight: bold;
+}

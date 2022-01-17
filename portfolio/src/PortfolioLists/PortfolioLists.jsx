@@ -1,49 +1,29 @@
 import React from "react";
 import "./PortfolioLists.css";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import LanguageIcon from "@mui/icons-material/Language";
-import LoginIcon from "@mui/icons-material/Login";
+import ProjectDescription from "./../Components/ProjectDescription/ProjectDescription";
+import VideoSlides from "./../Components/VideoSlides/VideoSlides";
 
-function PortfolioLists({ img, title, code, video, website }) {
-  const handleLogin = () => {
-    alert(
-      "Use Login Credentials : [ Email : junior@gmail.com, Password : 43421 ]"
-    );
-  };
+function PortfolioLists({
+  img,
+  title,
+  code,
+  video,
+  website,
+  stack,
+  description,
+}) {
   return (
-    <div className="portfolioWorks">
-      <div className="portfolioTitlt">
-        <h1 className="portfolioTitle">{title}</h1>
-      </div>
-      <div className="portfoliolistItem">
-        <div className="portfolioImgWrapper">
-          <video
-            src={video}
-            poster={img}
-            controls
-            className="portfolioImgs"
-          ></video>
-        </div>
-        <div className="portfolioInfo">
-          <div className="ProjectLinks">
-            <a href={code}>
-              <div className="projectLinksItem">
-                <GitHubIcon />
-              </div>
-            </a>
-            <a href={website}>
-              <div className="projectLinksItem">
-                <LanguageIcon />
-              </div>
-            </a>
-            <div className="projectLinksItem" onClick={handleLogin}>
-              <LoginIcon />
-            </div>
-          </div>
-        </div>
-      </div>
+    <div className="PortfolioSlidesContainer">
+      <ProjectDescription
+        code={code}
+        website={website}
+        stack={stack}
+        title={title}
+        description={description}
+      />
+      <VideoSlides img={img} code={code} video={video} website={website} />
     </div>
   );
 }
 
-export default PortfolioLists;
+export default React.memo(PortfolioLists);

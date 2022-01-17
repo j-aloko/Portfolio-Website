@@ -7,6 +7,7 @@ import Portfolio from "./../../Components/Portfolio/Portfolio";
 import Contact from "./../../Components/Contact/Contact";
 import About from "./../../Components/About/About";
 import Testimonials from "./../../Components/Testimonials/Testimonials";
+import Footer from "./../../Components/Footer/Footer";
 
 function Homepage() {
   const [menu, setMenu] = useState(false);
@@ -20,6 +21,7 @@ function Homepage() {
         <Portfolio />
         <Testimonials />
         <Contact />
+        <Footer />
       </div>
     </div>
   );

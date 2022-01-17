@@ -46,9 +46,8 @@ function Testimonials() {
               showStatus={false}
               showThumbs={false}
               autoPlay={true}
-              interval={5000}
-              infiniteLoop={true}
-              transitionTime={2000}
+              interval={6000}
+              transitionTime={3000}
             >
               {testimonials?.map((t) => (
                 <div className="userTestimonial" key={t.id}>

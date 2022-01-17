@@ -1,0 +1,26 @@
+.footerContainer {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+}
+
+.footerWrapper {
+  padding: 20px;
+}
+
+.copyrightAndName {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.year {
+  margin-left: 10px;
+}
+.Username {
+  margin-left: 10px;
+}

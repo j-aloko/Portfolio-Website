@@ -15,7 +15,7 @@
 .contactTitleAndDescription {
   color: whitesmoke;
   font-family: "Lucida Console", "Courier New", monospace;
-  font-weight: 500;
+  font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "./Intro.css";
 import { init } from "ityped";
+import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 
 function Intro({ menu, setMenu }) {
   const descriptionRef = useRef();
@@ -17,27 +18,30 @@ function Intro({ menu, setMenu }) {
         "Web Sockets",
       ],
       showCursor: true,
-      backDelay: 3000,
+      backDelay: 1500,
     });
   }, []);
 
   return (
     <div className="introContainer" id="Intro">
       <div className="introTitleWrapper">
-        <h1 className="introTitle">Developing Awesomeness</h1>
+        <h1 className="introTitle">Creating Websites That Engage Users.</h1>
         <span className="introDescription">
-          Hi, Welcome to my space, I'm Joseph Aloko, a fullstack software
-          engineer with over two years experience in web development,
-          collaborating with teammates across the world, to deliver excellent
-          services to clients. My expertise are{" "}
-          <span style={{ color: "red" }} ref={descriptionRef}></span>
+          Hi, Thank you for taking the time to look at my website. I'm Joseph
+          Aloko, a full-stack software engineer with over two years of web
+          development experience, collaborating with colleagues all over the
+          world to give clients exceptional service. My expertise are{" "}
+          <span
+            style={{ color: "red", fontSize: 25 }}
+            ref={descriptionRef}
+          ></span>
         </span>
         <a
           href="#About"
           className="viewProjects"
           onClick={() => setMenu(false)}
         >
-          About Me
+          More <ArrowDownwardIcon style={{ color: "red", fontSize: 35 }} />
         </a>
       </div>
       <div className={menu ? "imgWrapper menu" : "imgWrapper"}>

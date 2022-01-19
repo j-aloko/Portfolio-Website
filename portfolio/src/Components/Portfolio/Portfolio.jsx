@@ -7,7 +7,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function Portfolio() {
   return (
-    <div className="portfolioContainer" id="Portfolio">
+    <div className="portfolioContainer" id="PersonalProjects">
+      <h2 className="personalprojects">PERSONAL PROJECTS</h2>
       <div className="portfolioWrapper">
         <div className="portfolioLists">
           <Carousel

@@ -1,0 +1,118 @@
+.professionalWorkContainer {
+  flex: 1;
+  height: 100vh;
+  width: 100%;
+  background-color: #130f40;
+  background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+  border: none;
+  margin-top: 10px;
+}
+
+.professionalWorkTitlee {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  opacity: 0.6;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.worksTitle {
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+}
+
+.professionalWorkSubContainer {
+  display: flex;
+}
+
+.professionalWorkWrapper {
+  display: flex;
+  color: whitesmoke;
+  margin-top: 20px;
+}
+
+.professionalWorkLeftWrapper {
+  flex: 0.4;
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.professionalWorkTitle {
+  text-align: left;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: 500;
+}
+
+.companyName {
+  text-align: left;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: 500;
+}
+
+.professionalWorksTechStacksWrapper {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.professionalWorkTechStacks {
+  margin-right: 10px;
+  margin-top: 15px;
+  background-color: #fff;
+  color: black;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: 500;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.professionalWorkTechStacks:hover {
+  margin-right: 10px;
+  margin-top: 15px;
+  background-color: #fff;
+  color: black;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: 500;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.professionalWorksDescription {
+  margin-top: 10px;
+  text-align: left;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: 500;
+}
+
+.professionalWorkWebsite {
+  width: 140px;
+  margin-top: 10px;
+  color: whitesmoke;
+  background-color: transparent;
+  border: 0.5px solid white;
+  padding: 5px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: 500;
+  text-decoration: none;
+  color: inherit;
+}
+
+.professionalWorkRightWrapper {
+  flex: 0.6;
+  margin-right: 35px;
+}
+
+.professionalWorkImage {
+  width: 80%;
+  height: 450px;
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 1024px) {
+  .professionalWorkContainer {
+    display: none;
+  }
+}

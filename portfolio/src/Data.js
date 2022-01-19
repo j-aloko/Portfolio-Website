@@ -1,3 +1,41 @@
+export const works = [
+  {
+    id: 1,
+    title: "Freelance",
+    company: "Cocoa Processing Company",
+    desc: "Developed a modern website for one of the leading cocoa processing companies in Ghana. The company processes raw cocoa beans into semi-finished products, Cocoa Liquor, Butter and other confectionery products.",
+    link: "https://www.goldentreeghana.com/",
+    img: "/assets/cpc.png",
+    stack: [
+      "Vanilla Javascript",
+      "Jquery",
+      "Node Js",
+      "MongoDB",
+      "Rest Api",
+      "Google Map Service",
+      "HTML5",
+      "CSS3",
+    ],
+  },
+  {
+    id: 2,
+    title: "Front-End Developer",
+    company: "Qlipay",
+    desc: "Lead Front-End Engineer on Q-lipay, a platform that enables financial institutions and money transfer operators offer bill payment and mobile money value added services to their customers. Customers use their trusted channels and local payment schemes to pay for bills, goods and services in their home countries.",
+    link: "https://www.qlipay.de/",
+    img: "/assets/qlipay.png",
+    stack: [
+      "Next Js",
+      "HTML5",
+      "SASS",
+      "Formik",
+      "Node-Countries",
+      "React Responsive Carousel",
+      "Material UI",
+    ],
+  },
+];
+
 export const slideImages = [
   {
     id: 1,

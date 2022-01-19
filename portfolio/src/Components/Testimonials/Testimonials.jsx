@@ -30,7 +30,9 @@ function Testimonials() {
                   <p className="testimonial">{t.desc}</p>
                   <div className="testimonialEmailWrap">
                     <EmailIcon style={{ color: "white" }} />
-                    <span className="testimonialEmail">{t.email}</span>
+                    <a href={`mailto: ${t.email}`} className="testimonialEmail">
+                      {t.email}
+                    </a>
                   </div>
                 </div>
                 <div className="usernameAndPosition">
@@ -59,7 +61,12 @@ function Testimonials() {
                     <p className="testimonial">{t.desc}</p>
                     <div className="testimonialEmailWrap">
                       <EmailIcon style={{ color: "white" }} />
-                      <span className="testimonialEmail">{t.email}</span>
+                      <a
+                        href={`mailto: ${t.email}`}
+                        className="testimonialEmail"
+                      >
+                        {t.email}
+                      </a>
                     </div>
                   </div>
                   <div className="usernameAndPosition">

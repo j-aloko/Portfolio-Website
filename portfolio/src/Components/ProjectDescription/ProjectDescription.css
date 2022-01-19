@@ -45,7 +45,8 @@
   padding: 5px;
   border: 1px solid white;
   border-radius: 5px;
-  font-weight: bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: 500;
 }
 
 .techStacksList:hover {
@@ -55,7 +56,7 @@
   padding: 5px;
   border: 1px solid white;
   border-radius: 5px;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .descriptionArea {
@@ -80,16 +81,11 @@
   align-items: center;
 }
 
-.language {
-  margin-right: 10px;
-  color: blue;
-}
-
 .live {
   width: 140px;
   background-color: transparent;
   border: 0.5px solid white;
-  padding: 5px 5px;
+  padding: 5px;
   color: white;
   margin-right: 10px;
   cursor: pointer;
@@ -100,7 +96,7 @@
   width: 140px;
   background-color: transparent;
   border: 0.5px solid white;
-  padding: 5px 5px;
+  padding: 5px;
   color: white;
   margin-right: 10px;
   cursor: pointer;
@@ -112,22 +108,13 @@
   width: 10px;
   border-radius: 50%;
   background-color: green;
-  margin-left: -25px;
-}
-
-.github {
-  margin-right: 10px;
-}
-
-.githubcode {
-  display: flex;
-  align-items: center;
+  margin-left: -35px;
 }
 
 .sourceCode {
   background-color: transparent;
   border: 0.5px solid white;
-  padding: 5px;
+  padding: 8px;
   color: white;
   margin-right: 10px;
   cursor: pointer;
@@ -137,7 +124,7 @@
 .sourceCode:hover {
   background-color: transparent;
   border: 0.5px solid white;
-  padding: 5px;
+  padding: 8px;
   color: white;
   margin-right: 10px;
   cursor: pointer;

@@ -8,6 +8,7 @@ import Contact from "./../../Components/Contact/Contact";
 import About from "./../../Components/About/About";
 import Testimonials from "./../../Components/Testimonials/Testimonials";
 import Footer from "./../../Components/Footer/Footer";
+import ProfessionalWork from "./../../Components/ProfessionalWork/ProfessionalWork";
 
 function Homepage() {
   const [menu, setMenu] = useState(false);
@@ -18,6 +19,7 @@ function Homepage() {
       <div className="homepageWrapper">
         <Intro menu={menu} setMenu={setMenu} />
         <About menu={menu} />
+        <ProfessionalWork />
         <Portfolio />
         <Testimonials />
         <Contact />

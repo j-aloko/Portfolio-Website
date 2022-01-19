@@ -1,10 +1,3 @@
 .PortfolioSlidesContainer {
   display: flex;
-  margin-top: 10px;
-}
-
-.personalprojects {
-  font-family: "Lucida Console", "Courier New", monospace;
-  color: whitesmoke;
-  opacity: 0.6;
 }

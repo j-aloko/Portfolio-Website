@@ -1,7 +1,5 @@
 import React from "react";
 import "./ProjectDescription.css";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import LanguageIcon from "@mui/icons-material/Language";
 
 function ProjectDescription({ code, website, stack, title, description }) {
   return (
@@ -21,20 +19,12 @@ function ProjectDescription({ code, website, stack, title, description }) {
         <div className="portfolioButtons">
           <a href={website} target="_blank" rel="noreferrer" className="links">
             <div className="liveDemo">
-              <div className="language">
-                <LanguageIcon />
-              </div>
               <span className="live">Website</span>
               <span className="green"></span>
             </div>
           </a>
           <a href={code} target="_blank" rel="noreferrer" className="links">
-            <div className="githubcode">
-              <div className="github">
-                <GitHubIcon />
-              </div>
-              <span className="sourceCode">Source Code</span>
-            </div>
+            <span className="sourceCode">Source Code</span>
           </a>
         </div>
       </div>

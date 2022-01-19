@@ -7,8 +7,8 @@
 }
 
 .portfolioImgs {
-  height: 450px;
-  width: 80%;
+  height: auto;
+  width: 90%;
   object-fit: contain;
   cursor: pointer;
   margin-bottom: 60px;
@@ -16,7 +16,8 @@
 
 @media only screen and (max-width: 1024px) {
   .portfolioImgs {
-    width: 70%;
-    height: 400px;
+    width: 80%;
+    height: auto;
+    margin-bottom: 0;
   }
 }

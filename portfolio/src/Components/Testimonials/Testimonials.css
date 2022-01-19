@@ -68,6 +68,9 @@
 .testimonialEmail {
   margin-left: 20px;
   font-family: "Lucida Console", "Courier New", monospace;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 
 .usernameAndPosition {

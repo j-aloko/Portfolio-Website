@@ -18,16 +18,12 @@ function About({ menu }) {
               startup-like organizations, and remotely excites me since we get
               to engage with people from all backgrounds, share information, and
               learn from them. I most recently worked for Maviance as a
-              front-end developer on{" "}
-              <a href="https://www.qlipay.de" target="_blank" rel="noreferrer">
-                https://www.qlipay.de
-              </a>
-              , a cross-border payment platform that allows millions of migrants
-              to pay for bills, products, and services for their families around
-              the world in real-time and at reasonable costs. In this role, I
-              collaborated with a team of developers, UX Designers, a product
-              manager, and QA to make cross-border bill payments efficient and
-              as simple as possible.
+              front-end developer on Qlipay, a cross-border payment platform
+              that allows millions of migrants to pay for bills, products, and
+              services for their families around the world in real-time and at
+              reasonable costs. In this role, I collaborated with a team of
+              developers, UX Designers, a product manager, and QA to make
+              cross-border bill payments efficient and as simple as possible.
             </p>
           </div>
         </div>
@@ -38,6 +34,7 @@ function About({ menu }) {
           <div className="techStackss">
             <span className="listItem">React Js</span>
             <span className="listItem">Next Js</span>
+            <span className="listItem">Node Package Manager</span>
             <span className="listItem">Node Js </span>
             <span className="listItem">Express</span>
             <span className="listItem">MongoDb</span>
@@ -48,7 +45,7 @@ function About({ menu }) {
             <span className="listItem">Styled Components</span>
             <span className="listItem">SASS</span>
             <span className="listItem">CSS3</span>
-            <span className="listItem">Material Ui</span>
+            <span className="listItem">Material UI</span>
           </div>
           <div className="otherInterests">
             <h3 className="otherInterestTitle">OTHER INTERESTS</h3>

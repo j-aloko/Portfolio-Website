@@ -11,19 +11,16 @@ function About({ menu }) {
           </div>
           <div className={menu ? "aboutDescription menu" : "aboutDescription"}>
             <p className="aboutParagraph">
-              <span className="Q">A</span>s a full-stack engineer, I work with
-              other developers to create world-class enterprise software. I work
-              hard to understand the system and problems I'm confronting so that
-              it brings value and ease to the end user. Working in teams, in
-              startup-like organizations, and remotely excites me since we get
-              to engage with people from all backgrounds, share information, and
-              learn from them. I most recently worked for Maviance as a
+              <span className="Q">A</span>s a full-stack engineer, I create
+              world-class enterprise software. I work hard to understand the
+              system and the problems I'm dealing with so that it adds value and
+              ease of use to the end user. I've worked as a freelancer for
+              various clients, and I most recently worked for Maviance as a lead
               front-end developer on Qlipay, a cross-border payment platform
               that allows millions of migrants to pay for bills, products, and
-              services for their families around the world in real-time and at
-              reasonable costs. In this role, I collaborated with a team of
-              developers, UX Designers, a product manager, and QA to make
-              cross-border bill payments efficient and as simple as possible.
+              services for their families all over the world. In this role, I
+              worked with a team, which I find very beneficial because it allows
+              us to share knowledge and grow.
             </p>
           </div>
         </div>
@@ -34,12 +31,12 @@ function About({ menu }) {
           <div className="techStackss">
             <span className="listItem">React Js</span>
             <span className="listItem">Next Js</span>
-            <span className="listItem">Node Package Manager</span>
+            <span className="listItem">Javascript</span>
+            <span className="listItem">Typescript</span>
             <span className="listItem">Node Js </span>
             <span className="listItem">Express</span>
             <span className="listItem">MongoDb</span>
             <span className="listItem">Cypress</span>
-            <span className="listItem">React Testing Library</span>
             <span className="listItem">Web Sockets</span>
             <span className="listItem">HTML5</span>
             <span className="listItem">Styled Components</span>
@@ -50,10 +47,8 @@ function About({ menu }) {
           <div className="otherInterests">
             <h3 className="otherInterestTitle">OTHER INTERESTS</h3>
             <p className="interest">
-              I either work out or play football with my friends when I'm not
-              creating code. I also give a couple of hours a week to a social
-              services group that distributes clothing and furniture to the less
-              fortunate.
+              I give a couple of hours a week to a social services group that
+              distributes clothing and food to the less fortunate.
             </p>
           </div>
         </div>

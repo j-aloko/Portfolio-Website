@@ -15,7 +15,7 @@ function Intro({ menu, setMenu }) {
         </span>
         <a href="#About">
           <button className="viewProjects" onClick={() => setMenu(false)}>
-            More <ArrowDownwardIcon style={{ color: "red", fontSize: 35 }} />
+            More <ArrowDownwardIcon style={{ color: "red", fontSize: 30 }} />
           </button>
         </a>
       </div>

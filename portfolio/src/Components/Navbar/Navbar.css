@@ -48,7 +48,8 @@
 
 .Git {
   margin-left: 15px;
-  font-size: 22px;
+  font-size: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
   font-weight: bold;
 }
 
@@ -75,6 +76,9 @@
 
 .cv {
   font-weight: bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 20px;
+  margin-left: 10px;
 }
 
 .emailLink {
@@ -115,7 +119,11 @@
 
   .Git {
     margin-left: 2px;
-    font-size: 18px;
+    font-size: 15px;
+  }
+
+  .cv {
+    font-size: 15px;
   }
 
   .navbarEmail {

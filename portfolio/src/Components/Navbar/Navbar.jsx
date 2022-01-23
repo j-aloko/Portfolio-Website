@@ -1,6 +1,5 @@
 import React from "react";
 import "./Navbar.css";
-import EmailRoundedIcon from "@mui/icons-material/EmailRounded";
 import DehazeIcon from "@mui/icons-material/Dehaze";
 import CloseIcon from "@mui/icons-material/Close";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -21,14 +20,6 @@ function Navbar({ menu, setMenu }) {
               <span className="Git">Git</span>
             </div>
           </div>
-          <div className="navbarEmail">
-            <a href="#Contact" className="emailLink">
-              <div className="emailWrapper">
-                <EmailRoundedIcon className="svg_icon" />
-                <span className="email">alokojoseph7@gmail.com</span>
-              </div>
-            </a>
-          </div>
           <div className="navbarCvDownload">
             <a
               href="/assets/Joseph_Aloko_Resume.pdf"
@@ -37,7 +28,7 @@ function Navbar({ menu, setMenu }) {
             >
               <div className="cvWrapper">
                 <DownloadIcon className="svg_icon" />
-                <span className="cv">C.V</span>
+                <span className="cv">Resume</span>
               </div>
             </a>
           </div>

@@ -3,7 +3,7 @@ export const works = [
     id: 1,
     title: "Freelance",
     company: "Cocoa Processing Company",
-    desc: "Developed a modern website for one of the leading cocoa processing companies in Ghana. The company processes raw cocoa beans into semi-finished products, Cocoa Liquor, Butter and other confectionery products.",
+    desc: "Developed a modern website for one of the leading cocoa processing companies in West Africa. The company processes raw cocoa beans into semi-finished products, Cocoa Liquor, Butter and other confectionery products.",
     link: "https://www.goldentreeghana.com/",
     img: "/assets/cpc.png",
     stack: [

@@ -39,6 +39,28 @@ export const works = [
 export const slideImages = [
   {
     id: 1,
+    url: "/assets/blog@2x.png",
+    video: "/assets/BlogApp.mp4",
+    title: " JUST READ BLOG ",
+    website: "https://just-read-app.herokuapp.com/",
+    code: "https://github.com/j-aloko/Just-Read-Blog.git",
+    stack: [
+      "Javascript",
+      "React",
+      "Node Js",
+      "MongoDB",
+      "Rest Api",
+      "Web-Socket",
+      "Cypress",
+      "Context Api",
+      "HTML5",
+      "CSS3",
+    ],
+    description:
+      "Just Read is a free and open platform where readers may discover new ideas and where experts and unknown voices can publish their writing on any subject. This is a fully functional 'MERN' stack web application with a great blog design and structure, a simple menu, social media integration, a commenting system, a visible search box, and a well-organized category section.",
+  },
+  {
+    id: 2,
     url: "/assets/social.jpg",
     video: "/assets/LinkUp.mp4",
     title: "LINK UP SOCIAL APP",
@@ -59,29 +81,6 @@ export const slideImages = [
     ],
     description:
       "Link up is a social media network that promotes sociability, photo sharing, news updates, and interaction with friends and family. This software has a built-in messenger feature, a news feed system, the ability to follow and unfollow people, likes, comments, and replies, as well as an instant notification system.",
-  },
-  {
-    id: 2,
-    url: "/assets/blog@2x.png",
-    video: "/assets/BlogApp.mp4",
-    title: " JUST READ BLOG ",
-    website: "https://just-read-app.herokuapp.com/",
-    code: "https://github.com/j-aloko/Just-Read-Blog.git",
-    stack: [
-      "Javascript",
-      "React",
-      "Node Js",
-      "MongoDB",
-      "Rest Api",
-      "Web-Socket",
-      "Cypress",
-      "Context Api",
-      "HTML5",
-      "CSS3",
-      "Material UI",
-    ],
-    description:
-      "Just Read is a free and open platform where readers may discover new ideas and where experts and unknown voices can publish their writing on any subject. This is a fully functional 'MERN' stack web application with a great blog design and structure, a simple menu, social media integration, a commenting system, a visible search box, and a well-organized category section.",
   },
   {
     id: 3,
@@ -130,7 +129,7 @@ export const slideImages = [
 export const testimonials = [
   {
     id: 1,
-    img: "assets/Purkins.jpg",
+    img: "assets/purkins.jpg",
     desc: "Coming from a finance background, I'm really impressed at how Joseph has evolved in web development over the years. His humilty and willingness to learn and evolve is what has brought him this far. I'm honoured to have mentored him in his journey.",
     email: "fpurkinstech@gmail.com",
     name: "Friedrich Purkins",
@@ -138,7 +137,7 @@ export const testimonials = [
   },
   {
     id: 2,
-    img: "assets/Gina.jpg",
+    img: "assets/huffman.jpg",
     desc: "Joseph is very conscientious and client-centered. He goes to great lengths to fully understand project requirements. This allows him to produce an effective feature in a short timeframe.",
     email: "huffmangina4@gmail.com",
     name: "Gina H. Huffman",
@@ -146,7 +145,7 @@ export const testimonials = [
   },
   {
     id: 3,
-    img: "assets/Green.jpg",
+    img: "assets/green.jpg",
     desc: "I recently collaborated with Joseph on a contract at Maviance. In this time I found a very diligent person, and a most accountable one. Amongst the things he was responsible for was developing user friendly interfaces for clients projects and assisting in testing of enterprise applications.",
     email: "waynegreen344@gmail.com",
     name: "Wayne Green ",
@@ -154,7 +153,7 @@ export const testimonials = [
   },
   {
     id: 4,
-    img: "assets/Kim.jpg",
+    img: "assets/kim.jpg",
     desc: "Joseph is an amazing developer and I love working with him. I was surprised, when i found out about his background in finance and despite that, He is the guy you want, when you need to pair programme and debug code with. He solves problems calmly, professionally, with a great attitude.",
     email: "kimluczyk00@gmail.com",
     name: "kimberly Luczyk",

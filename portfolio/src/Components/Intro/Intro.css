@@ -4,7 +4,6 @@
   display: flex;
   justify-content: center;
   border: none;
-  margin-top: 50px;
 }
 
 .introTitleWrapper {
@@ -63,22 +62,26 @@
   transition: all 1.5s ease-in;
 }
 
-.imgWrapper.menu {
-  position: relative;
-  right: 180px;
-}
-
 .introImage {
-  height: 100%;
-  width: 100%;
+  margin-top: 20px;
+  height: 550px;
+  width: 550px;
+  border-radius: 50%;
+  border: none;
   object-fit: cover;
   vertical-align: middle;
+  background-color: rgb(46, 46, 46);
 }
 
 @media only screen and (max-width: 1024px) {
   .introContainer {
     flex-direction: column;
   }
+
+  .introTitleWrapper {
+    margin-top: 30px;
+  }
+
   .introTitle {
     font-size: 30px;
     font-weight: 500;
@@ -97,20 +100,16 @@
   .introDescription {
     max-width: 100%;
     font-size: 18px;
-    margin-top: 10px;
     margin-left: 5px;
   }
 
-  .iType {
-    color: red;
-    font-size: 20px;
+  .imgWrapper {
+    margin-top: 30px;
   }
 
   .introImage {
-    height: 100%;
-    width: 60%;
-    object-fit: cover;
-    vertical-align: middle;
+    height: 400px;
+    width: 400px;
   }
 }
 
@@ -125,15 +124,8 @@
     margin-left: 5px;
   }
 
-  .iType {
-    color: red;
-    font-size: 12px;
-  }
-
   .introDescription {
-    max-width: 80%;
     font-size: 12px;
-    margin-top: 10px;
     margin-left: 5px;
   }
 
@@ -145,13 +137,9 @@
     margin-left: 5px;
   }
 
-  .imgWrapper {
-    margin-top: 20px;
-  }
-
-  .imgWrapper.menu {
-    position: relative;
-    right: 0;
+  .introImage {
+    height: 300px;
+    width: 300px;
   }
 }
 
@@ -168,9 +156,7 @@
   }
 
   .introDescription {
-    max-width: 100%;
     font-size: 15px;
-    margin-top: 10px;
     margin-left: 5px;
   }
 
@@ -180,15 +166,6 @@
     margin-top: 20px;
     font-size: 20px;
     margin-left: 5px;
-  }
-
-  .imgWrapper {
-    margin-top: 20px;
-  }
-
-  .imgWrapper.menu {
-    position: relative;
-    right: 0;
   }
 }
 
@@ -205,7 +182,6 @@
   }
 
   .introDescription {
-    max-width: 200px;
     font-size: 12px;
     margin-top: 10px;
     margin-left: 5px;
@@ -217,15 +193,6 @@
     margin-top: 20px;
     font-size: 12px;
     margin-left: 5px;
-  }
-
-  .imgWrapper {
-    margin-top: 20px;
-  }
-
-  .imgWrapper.menu {
-    position: relative;
-    right: 0;
   }
 }
 

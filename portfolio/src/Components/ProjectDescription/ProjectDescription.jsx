@@ -17,12 +17,12 @@ function ProjectDescription({ code, website, stack, title, description }) {
           <p className="description">{description}</p>
         </div>
         <div className="portfolioButtons">
-          <a href={website} target="_blank" rel="noreferrer" className="links">
-            <div className="liveDemo">
-              <span className="live">Website</span>
-              <span className="green"></span>
-            </div>
-          </a>
+          <div className="liveDemo">
+            <a href={website} target="_blank" rel="noreferrer" className="live">
+              Website
+            </a>
+            <span className="green"></span>
+          </div>
           <a href={code} target="_blank" rel="noreferrer" className="links">
             <span className="sourceCode">Source Code</span>
           </a>

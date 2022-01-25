@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Homepage.css";
 import Navbar from "./../../Components/Navbar/Navbar";
 import Menu from "./../../Components/MenuItems/Menu";
@@ -10,8 +10,7 @@ import Testimonials from "./../../Components/Testimonials/Testimonials";
 import Footer from "./../../Components/Footer/Footer";
 import ProfessionalWork from "./../../Components/ProfessionalWork/ProfessionalWork";
 
-function Homepage() {
-  const [menu, setMenu] = useState(false);
+function Homepage({ menu, setMenu }) {
   return (
     <div className="homeContainer">
       <Navbar setMenu={setMenu} menu={menu} />

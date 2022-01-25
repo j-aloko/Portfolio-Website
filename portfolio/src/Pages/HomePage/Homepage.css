@@ -40,3 +40,14 @@
   height: calc(100vh - 70px);
   scroll-snap-align: start;
 }
+
+@media only screen and (max-width: 1024px) {
+  .homeContainer::-webkit-scrollbar {
+    display: none;
+  }
+
+  .homeContainer {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}

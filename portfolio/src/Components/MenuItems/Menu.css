@@ -19,32 +19,34 @@
 
 .menuItems {
   list-style-type: none;
-  margin: 0;
+  margin-top: 80px;
   padding: 0;
   font-size: 25px;
   color: rgb(173, 173, 173);
 }
 
 li {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 li > a {
-  font-size: inherit;
-  font-family: "Lucida Console", "Courier New", monospace;
-  font-weight: bold;
-  color: inherit;
   text-decoration: none;
+  color: inherit;
 }
 
-li :hover {
-  color: white;
+li > a:hover {
+  text-decoration: none;
+  color: inherit;
 }
 
 @media only screen and (max-width: 1280px) {
   .menuContainer {
     width: 240px;
-    height: 80vh;
+    height: 60vh;
   }
 
   .menuItems {
@@ -59,15 +61,11 @@ li :hover {
 @media only screen and (max-width: 540px) {
   .menuContainer {
     width: 180px;
-    height: 60vh;
+    height: 45vh;
   }
 
   .menuItems {
     font-size: 20px;
-  }
-
-  li {
-    margin-bottom: 25px;
   }
 
   .portfolioMenuItem {
@@ -76,11 +74,6 @@ li :hover {
 }
 
 @media only screen and (max-width: 430px) {
-  .menuContainer {
-    width: 180px;
-    height: 60vh;
-  }
-
   .menuItems {
     font-size: 15px;
   }
@@ -91,17 +84,8 @@ li :hover {
 }
 
 @media only screen and (max-width: 375px) {
-  .menuContainer {
-    width: 150px;
-    height: 60vh;
-  }
-
   .menuItems {
     font-size: 15px;
-  }
-
-  li {
-    margin-bottom: 20px;
   }
 }
 

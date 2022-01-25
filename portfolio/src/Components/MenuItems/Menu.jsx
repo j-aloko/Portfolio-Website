@@ -11,13 +11,11 @@ function Menu({ setMenu, menu }) {
         <li onClick={() => setMenu(false)}>
           <a href="#About">ABOUT</a>
         </li>
-        <li onClick={() => setMenu(false)}>
-          <a href="#Works" className="portfolioMenuItem">
-            WORKS
-          </a>
+        <li onClick={() => setMenu(false)} className="portfolioMenuItem">
+          <a href="#Works">WORKS</a>
         </li>
         <li onClick={() => setMenu(false)} className="portfolioMenuItem">
-          <a href="#PersonalProjects">MY PROJECTS</a>
+          <a href="#PersonalProjects">PROJECTS</a>
         </li>
         <li onClick={() => setMenu(false)}>
           <a href="#Testimonials">TESTIMONIALS</a>
